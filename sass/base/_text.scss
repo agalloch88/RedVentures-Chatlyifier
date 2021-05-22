@@ -1,0 +1,40 @@
+// styling chat text
+
+.text {
+    width: 557px;
+    height: 65px;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: $text-color;
+    position: relative;
+    top: 20px;
+    margin-bottom: 10%;
+}
+
+.text-bottom {
+    position: relative;
+    top: -10px;
+  
+     & .time {
+        width: 75px;
+        height: 9px;
+        font-family: $body-font;
+        font-size: 12px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 0;
+        letter-spacing: normal;
+        color: $text-color;
+  
+  }
+  
+    & .user-name {
+      position: relative;
+      top: -5px;
+    }
+}

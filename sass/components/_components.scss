@@ -1,0 +1,84 @@
+// chat arrows
+
+.chat_arrow_left {
+
+    &:before {
+      content: '';
+      height: 0;
+      position: absolute;
+      width: 0;
+      border-top: $border-solid-10 transparent;
+      border-bottom: $border-solid-10 transparent; 
+      border-right: $border-solid-10 $main-color;
+      right: $arrow-position;
+      top: 37%;
+      display: block;
+    }
+
+    &:after {
+      content: '';
+      height: 0;
+      position: absolute;
+      width: 0;
+      border-top: $border-solid-10 transparent;
+      border-bottom: $border-solid-10 transparent; 
+      border-right: $border-solid-10 $main-color;
+      right: $arrow-position;
+      top: 84%;
+      display: block;
+    }
+}
+
+
+
+
+
+.chat_arrow_right {
+
+     &:before {
+        content: '';
+        height: 0;
+        position: absolute;
+        width: 0;
+        border-top: $border-solid-10 transparent;
+        border-bottom: $border-solid-10 transparent; 
+        border-left: $border-solid-10 $color-white;
+        left: $arrow-position;
+        top: 60.5%;
+      }
+
+      &:after {
+        content: '';
+        height: 0;
+        position: absolute;
+        width: 0;
+        border-top: $border-solid-10 transparent;
+        border-bottom: $border-solid-10 transparent; 
+        border-left: $border-solid-10 $main-color;
+        left: $arrow-position;
+        top: 107.5%;
+  }
+
+}
+
+// message box = focused
+
+#focused .message-box {
+  box-shadow: 0 15px 50px 0 rgba(0,0,0,0.13);
+  background-color: $color-white;  
+}
+
+// styling timestamp and clock image
+
+.timestamp {
+  position: relative;
+  left: -30%;
+}
+
+.clock-icon img {
+  width: 12px;
+  height: 12px;
+  background-color: rgba(0, 0, 0, 0);
+  position: relative;
+  top: -4px;
+}

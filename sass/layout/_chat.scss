@@ -1,0 +1,16 @@
+// styling chat
+
+.chat-log {
+    margin-bottom: 5%;
+
+      & :last-child(4) {
+        display: none !important;
+      }
+}
+
+.message-box {
+    height: $auto-height;
+    width: 610px;
+    background-color: $main-color;
+    border-radius: 5px;
+}

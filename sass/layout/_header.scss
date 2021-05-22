@@ -1,0 +1,49 @@
+// styling header section
+
+.header {
+
+    & li {
+      margin-top: 10%;
+    }
+
+    & .header-title {
+      width: 220px;
+      height: 14px;
+      font-size: 15.7px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: condensed;
+      line-height: normal;
+      letter-spacing: 3.9px;
+      color: $color-black;
+      text-transform: uppercase;
+      position: relative;
+      left: -8%;
+    }
+
+    & .header-date {
+      width: 240px;
+      height: 18px;
+      font-family: $body-font;
+      font-size: 18px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: right;
+      color: #9a9a9a;
+      position: relative;
+      right: -8%;
+    }
+}
+
+// styling header line
+
+.line {
+  width: 790px;
+  height: 5px;
+  background-color: $body-color;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
